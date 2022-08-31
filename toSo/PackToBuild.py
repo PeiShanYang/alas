@@ -37,4 +37,6 @@ if __name__ == '__main__':
     PackToSo.PackToSo()
     # copy('sample', 'so', force=True)
     # copy('assets', 'so', force=True)
+    shutil.rmtree('so/utils/AiModel', ignore_errors=True)
+    copy('utils/AiModel', 'so/utils/', force=True)
     shutil.rmtree('so/temp', ignore_errors=True)

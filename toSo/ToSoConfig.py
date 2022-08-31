@@ -9,7 +9,13 @@ includeBaseFolder: bool = Base path's file pack or not
 from typing import Dict
 
 excepts: Dict = {
-    'folder': ['__pycache__','.git', 'test', 'toSo', 'sample', 'assets', 'datasets', 'deploy', 'logs', 'projects', 'dist'],
+    'folder': [
+        '__pycache__', '.git',
+        'test', 'toSo', 'sample',
+        'assets', 'datasets', 'deploy',
+        'logs', 'projects', 'dist',
+        'utils/AiModel', 'build'
+    ],
     'file' : ['.gitignore'],
     'type': ['.pyc', '.pyd', '.sh'],
 }

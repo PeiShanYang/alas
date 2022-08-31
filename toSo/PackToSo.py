@@ -59,7 +59,7 @@ def PackToSo():
         for i in specialDict.keys():
             packPathList  = list(filter_list(packPathList, specialDict[i]))
             print(f"{i} : {specialDict[i]}")
-            setup(ext_modules = cythonize(specialDict[i], compiler_directives={'language_level' : "4"}),
+            setup(ext_modules = cythonize(specialDict[i], compiler_directives={'language_level' : "4", 'always_allow_keywords': True}),
                 script_args=["build_ext", "-b", join(ToSoConfig.buildDir, i), "-t", ToSoConfig.buildTmpDir])
 
     except Exception as ex:
@@ -67,7 +67,7 @@ def PackToSo():
 
     print(f'OtherList: {packPathList}')
     try:
-        setup(ext_modules = cythonize(packPathList, compiler_directives={'language_level' : "3"}),
+        setup(ext_modules = cythonize(packPathList, compiler_directives={'language_level' : "3", 'always_allow_keywords': True}),
             script_args=["build_ext", "-b", ToSoConfig.buildDir, "-t", ToSoConfig.buildTmpDir])
     except Exception as ex:
         print("error! ", ex)
