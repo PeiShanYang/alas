@@ -1,49 +1,44 @@
-Package            Version
------------------- ------------
-autopep8           1.6.0
-certifi            2022.6.15
-charset-normalizer 2.0.12
-click              8.0.4
-cycler             0.11.0
-Cython             0.29.24
-docopt             0.6.2
-Flask              2.0.3
-Flask-Cors         3.0.10
-fonttools          4.32.0
-idna               3.3
-importlib-metadata 4.11.2
-itsdangerous       2.1.0
-Jinja2             3.0.3
-joblib             1.1.0
-kiwisolver         1.4.2
-MarkupSafe         2.0.1
-matplotlib         3.5.1
-numpy              1.21.5
-packaging          21.3
-pandas             1.3.5
-Pillow             9.1.0
-pip                22.0.3
-pipreqs            0.4.10
-pycodestyle        2.8.0
-pycryptodome       3.15.0
-PyJWT              2.3.0
-pyparsing          3.0.8
-python-dateutil    2.8.2
-pytz               2022.1
-requests           2.27.1
-scikit-learn       1.0.2
-scipy              1.7.3
-seaborn            0.11.2
-setuptools         60.6.0
-six                1.16.0
-sklearn            0.0
-threadpoolctl      3.1.0
-toml               0.10.2
-torch              1.11.0+cu113
-torchvision        0.12.0
-typing_extensions  4.1.1
-urllib3            1.26.8
-Werkzeug           2.0.3
-wheel              0.37.1
-yarg               0.1.9
-zipp               3.7.0
+autopep8==1.6.0
+certifi==2022.6.15
+charset-normalizer==2.0.12
+click==8.0.4
+cycler==0.11.0
+Cython @ file:///workspace/kinsus-classification-system/backend/Cython-0.29.24-cp37-cp37m-manylinux1_x86_64.whl
+docopt==0.6.2
+Flask==2.0.3
+Flask-Cors==3.0.10
+fonttools==4.32.0
+idna==3.3
+importlib-metadata==4.11.2
+itsdangerous==2.1.0
+Jinja2==3.0.3
+joblib==1.1.0
+kiwisolver @ file:///wheel/kiwisolver-1.4.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+MarkupSafe @ file:///wheel/MarkupSafe-2.0.1.tar.gz
+matplotlib==3.5.1
+numpy==1.21.5
+packaging==21.3
+pandas==1.3.5
+Pillow @ file:///wheel/Pillow-9.1.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+pipreqs @ file:///wheel/pipreqs-0.4.10-py2.py3-none-any.whl
+pycodestyle==2.8.0
+pycryptodome @ file:///wheel/pycryptodome-3.15.0-cp35-abi3-manylinux2010_x86_64.whl
+PyJWT==2.3.0
+pyparsing==3.0.8
+python-dateutil==2.8.2
+pytz==2022.1
+requests==2.27.1
+scikit-learn==1.0.2
+scipy==1.7.3
+seaborn==0.11.2
+six==1.16.0
+sklearn==0.0
+threadpoolctl==3.1.0
+toml==0.10.2
+torch==1.11.0+cu113
+torchvision==0.12.0
+typing_extensions==4.1.1
+urllib3==1.26.8
+Werkzeug==2.0.3
+yarg==0.1.9
+zipp==3.7.0
