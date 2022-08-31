@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+import shutil
 import PackToSo
 import subprocess
 import os
@@ -34,5 +35,6 @@ def create_file(src: str):
 
 if __name__ == '__main__':
     PackToSo.PackToSo()
-    copy('sample', 'so', force=True)
-    copy('assets', 'so', force=True)
+    # copy('sample', 'so', force=True)
+    # copy('assets', 'so', force=True)
+    shutil.rmtree('so/temp', ignore_errors=True)
