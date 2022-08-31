@@ -34,5 +34,5 @@ def create_file(src: str):
 
 if __name__ == '__main__':
     PackToSo.PackToSo()
-    copy('sample', 'build', force=True)
-    copy('sample', 'assets', force=True)
+    copy('sample', 'so', force=True)
+    copy('assets', 'so', force=True)
