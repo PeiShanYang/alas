@@ -9,7 +9,7 @@ includeBaseFolder: bool = Base path's file pack or not
 from typing import Dict
 
 excepts: Dict = {
-    'folder': ['__pycache__','.git', 'test', 'toSo', 'sample', 'assets', 'datasets', 'deploy', 'logs', 'projects'],
+    'folder': ['__pycache__','.git', 'test', 'toSo', 'sample', 'assets', 'datasets', 'deploy', 'logs', 'projects', 'dist'],
     'file' : ['.gitignore'],
     'type': ['.pyc', '.pyd', '.sh'],
 }
@@ -21,7 +21,7 @@ copyOther: Dict ={
 }
 
 delC: bool = True
-buildDir: str = "build"
+buildDir: str = "so"
 buildTmpDir: str = buildDir + "/temp"
 toSoFolder: str = '.'
 includeBaseFolder: bool = False 
