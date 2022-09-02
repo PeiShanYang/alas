@@ -1,4 +1,4 @@
 from main.Run import run_process
 
-def enterModel():
+if __name__ == '__main__':
    run_process()

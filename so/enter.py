@@ -1,4 +1,4 @@
 from main.Main import main
 
-def enter():
+if __name__ == '__main__':
     main()
